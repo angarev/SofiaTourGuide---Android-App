@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="earth">
+        <item>The Earth and Man National Museum is a mineralogical museum
+            in the centre of Sofia, the capital of Bulgaria.
+            Its one of the biggest mineralogical museums in the world.
+            It was founded on 30 December 1985 and opened for visitors on 19 June 1987.
+            The museum is situated in a reconstructed and adapted historic building with an area of 4,000 square meters
+            constructed in the end of the 19th century. </item>
+        <item>
+            Working Hours: \n10 am to 6 pm (Tuesday - Sunday)
+         </item>
+        <item>
+            Prices:  Adults - 4 BGN; \nStudents and pensioners - 2 BGN, \nFamily ticket - 6 BGN; \nGeological playground for children and adults - 1 BGN;
+        </item>
+         <item>
+            Phones: +35928656639
+        </item>
+    <item>Address: Sofia, 4 Cherni Vrah Blvd. (Click to see on the map)</item>
+    <item>Transport: Metro: (L2), "European Union" Station</item>
+    <item>@string/earth_link</item>
+</string-array>
+</resources>

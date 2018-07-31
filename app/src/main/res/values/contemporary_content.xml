@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="contemporary">
+        <item>Museum of Contemporary Art is located in the reconstructed building of former arsenal and Sofia aims to show how a change in the cultural epochs and currents leads to the formation of art modernity. The building, a part of the former "Sofia Armory Complex" was built in late 19th century and bears the typical features of classical architecture. In the 1930’s the complex housed The Military School for Reserve officers, established in 1908 and initially located in the city’s area of Knyazhevo. Later on, it was moved to "So-fia Arsenal", where the current building of the Museum for Contemporary Arts turned into its headquarters, the present "Land and People Gallery" – its dining room and the memorial "garrison’s shooting range" was the training ground of the Military School. At that time in Bulgaria it is common for the young men with a degree to serve at the School and turn into officers of the reserve. A consider-able part of them participated in the wars and fought for their dignity and in the name of their school.</item>
+        <item>
+            Working Hours: \n10 am to 6 pm;
+            Closed: Monday;
+         </item>
+        <item>
+            Prices: Free entry;
+        </item>
+         <item>
+            Phone: +359 879 834 030
+        </item>
+        <item>Address: Sofia, 2 Cherni Vrah Blvd. (Click to see on the map)</item>
+        <item>Transport: Metro: (L2), "European Union" Station</item>
+        <item>@string/contemporary_link</item>
+    </string-array>
+</resources>

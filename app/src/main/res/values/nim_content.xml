@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nim">
+        <item>
+            The National Museum of History is a national treasure of the Republic of Bulgaria, the repository of
+            relics of the world and one of the largest historical museums in the Balkans.
+            It holds more than 650 000 monuments and vast archaeological and historical archive. It was established on 5 May 1973.
+            On 2 March 1984, the new representative exhibition was opened in the building of
+            the Court of Justice on the occasion of the 1300-th anniversary of the Bulgarian state.
+            In 2000, the NMH shifted to a new location – Home 1 in the former Boyana residence,
+            where on 10, November, 1989 the last communist leader was removed from power.
+        </item>
+        <item>
+            Working Hours: \n9:30 am to 6 pm (April-October), \nTicket office closes at 5:15 pm.
+            \n9 am to 5:30 pm (November to March), Ticket office closes at 4:45 pm.
+        </item>
+        <item>
+            Prices: \nFor individual visitors – 10 BGN;
+            \nFor students – 1 BGN;
+            For visitors with children – 3 BGN. \nFor children over 7 years – 1 BGN;
+            \nGeneral tour: 30 BGN.(duration – 1 hour and 30 min.);
+            \nFor groups of 10 and more people - 8.00 BGN. per person;
+            \nFor 8 visits in 1 year – 20.00 BGN;
+            \nFor 4 visits in 1 year – 10.00 BGN;
+            Free entrance: \nFor all visitors - every last Monday of the month;
+            \nFor people with special needs;
+            \nFor children up to 7 years old.
+        </item>
+         <item>
+            Phones: \n+359 2 9554280 - for requests
+            \n+359 896 720 336 - for requests and reservations
+        </item>
+        <item>Address: 1618 Sofia, Vitoshko lale 16 Str. <b>(Click to see on the map)</b></item>
+        <item>Transport: Bus - № 63, 111; Trolley - № 2</item>
+        <item>@string/nim_link</item>
+    </string-array>
+</resources>

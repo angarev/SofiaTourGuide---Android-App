@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="practical">
+        <item>About Sofia</item>
+        <item>Language</item>
+        <item>Airport</item>
+        <item>Transport</item>
+        <item>Banks and money</item>
+        <item>Visas and Border Control</item>
+        <item>Emergency phones</item>
+        <item>Tourist information offices</item>
+    </string-array>
+</resources>

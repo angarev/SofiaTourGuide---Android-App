@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="garibaldi">
+        <item>Garibaldi Square is located in the city center. You can see there a monument to the Italian national hero Giuseppe Garibaldi.</item>
+        <item>    Sofia, between Graf Ignatiev and Angel Kanchev streets. \nLocation: 42.693807, 23.322671 (Click to see on the map)</item>
+    </string-array>
+</resources>

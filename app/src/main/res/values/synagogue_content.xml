@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="synagogue">
+        <item>The Sofia Synagogue is the largest synagogue in Southeastern Europe. The story of the construction of the Central Synagogue is as dramatic as its size. It began in the year 1903. The Jewish community had been reorganized on the French Consistoire model. It was led by the dynamic new Chief Rabbi, Marcus Ehrenpreis, and the leaders of the Sofia Jewish community, the young energetic Ezra Tadjer, and the venerable Avram Davidjon Levy. Friedrich Grunanger, the most famous architect in Bulgaria at the time, was selected to design the Synagogue. The site selected was in the city center on the property occupied by the very old synagogue “Ahava i Hesed”.
+Construction begins on November 13, 1905 with an elaborate ground laying ceremony. The famous brass chandelier weighing over 2200 kilos, the large candelabra (Heb. menorah), and other decorations were imported from Vienna. Finally, after four years of construction, financial crises, and communal debates, the synagogue is completed. On September 9, 1909 the Central Synagogue of Sofia was formally opened. The Central Synagogue immediately became the symbol of Bulgarian Judaism.
+</item>
+        <item>
+            Working Hours: ----
+        </item>
+        <item>
+            Prices:Free;
+        </item>
+         <item>
+            Phones: \n +359 2 983 12 73
+             \n+359 988 878 806
+        </item>
+        <item>Address: Ekzarh Joseph 16, 1000 Sofia (Click to see on the map)</item>
+        <item>@string/synagogue_link</item>
+    </string-array>
+</resources>

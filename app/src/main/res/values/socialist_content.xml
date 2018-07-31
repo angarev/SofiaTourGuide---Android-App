@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="socialist">
+        <item>The Museum of Socialist Art is the first of its kind museum institution whose purpose is to collect, preserve and exhibited art from the period 1944-1989, the themes that are related to the era of socialism. The museum exhibits some 77 sculptures, 60 paintings and 25 smaller plastic art works by the most renowned sculptors and painters of the time. Mostly commissioned by the regime for propaganda purposes, the collection contains numerous full-length statues, busts, heads and portraits of the Soviet Union’s founding father Vladimir Lenin, Bulgaria’s first communist leader Georgy Dimitrov and long-ruling dictator Todor Zhivkov. Other works glorify the life of the working classes and the feats of the partisan movement that brought communism to Bulgaria in 1944.</item>
+        <item>
+            Working Hours: \n10 am to 6 pm (Monday - Friday)
+         </item>
+        <item>
+            Prices:  Adults - 6 BGN; \nStudents and seniors - 3 BGN; \nTicket office closes at 5:30 pm.
+        </item>
+         <item>
+            Phones: +359 2 9021862
+        </item>
+        <item>Address: 7, Lachezar Stanchev Str., Sofia 1756 (Click to see on the map)</item>
+        <item>Transport: Metro (L1, L2), "G. M. Dimitrov" Station</item>
+        <item>@string/socialist_link</item>
+    </string-array>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="crypt">
+        <item>
+            In the basement of the Alexander Nevsky Cathedral there is a Crypt where arranged in chronology are about 300 exhibits, mostly icons, and mural fragments and prints.
+            The exhibits date from the 9th century AD until the end of the 19th century.
+            The collection is the most representative one, revealing the development of iconography in the Bulgarian lands.
+        </item>
+        <item>
+            Working Hours: \n10 am to 6 pm;
+            Closed: Monday;
+        </item>
+        <item>
+            Prices: 6 BGN.
+        </item>
+        <item>Phone: +3592 981 57 75</item>
+        <item>1 St. Alexander Nevski Square, Sofia 1000 (Click to see on the map)</item>
+    </string-array>
+</resources>

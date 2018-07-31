@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sofiatourguide.sofiatourguide">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:fullBackupContent="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splashscreen"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/title_activity_about"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AttractionsActivity"
+            android:label="@string/title_activity_attractions"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MuseumActivity"
+            android:label="@string/title_activity_museum"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.MainActivity" />
+        </activity>
+        <activity
+            android:name=".NimActivity"
+            android:label="@string/title_activity_nim"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.MainActivity" />
+        </activity>
+        <activity
+            android:name=".BasilicaActivity"
+            android:label="@string/title_activity_basilica"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainmapActivity"
+            android:label="@string/title_activity_mainmap"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.MainActivity" />
+        </activity>
+        <activity
+            android:name=".EthnographicInstituteActivity"
+            android:label="@string/title_activity_ethnographic_institute"
+            android:parentActivityName=".MuseumActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.MuseumActivity" />
+        </activity>
+        <activity
+            android:name=".NationalArchaeologicalMuseumActivity"
+            android:label="@string/title_activity_national_archaeological_museum"
+            android:parentActivityName=".MuseumActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.MuseumActivity" />
+        </activity>
+        <activity
+            android:name=".EarthAndManMuseumActivity"
+            android:label="@string/title_activity_earth_and_man_museum"
+            android:parentActivityName=".MuseumActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.MuseumActivity" />
+        </activity>
+        <activity
+            android:name=".MilitaryHistoryActivity"
+            android:label="@string/title_activity_military_history"
+            android:parentActivityName=".MuseumActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.MuseumActivity" />
+        </activity>
+        <activity
+            android:name=".SocialistArtActivity"
+            android:label="@string/title_activity_socialist_art"
+            android:parentActivityName=".MuseumActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.MuseumActivity" />
+        </activity>
+        <activity
+            android:name=".ContemporaryArtActivity"
+            android:label="@string/title_activity_contemporary_art"
+            android:parentActivityName=".MuseumActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.MuseumActivity" />
+        </activity>
+        <activity
+            android:name=".GalleriesActivity"
+            android:label="@string/title_activity_galleries"
+            android:parentActivityName=".AttractionsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.AttractionsActivity" />
+        </activity>
+        <activity
+            android:name=".CryptActivity"
+            android:label="@string/title_activity_crypt"
+            android:parentActivityName=".GalleriesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.GalleriesActivity" />
+        </activity>
+        <activity
+            android:name=".SquareActivity"
+            android:label="@string/title_activity_square"
+            android:parentActivityName=".GalleriesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.GalleriesActivity" />
+        </activity>
+        <activity
+            android:name=".TemplesActivity"
+            android:label="@string/title_activity_temples"
+            android:parentActivityName=".AttractionsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.AttractionsActivity" />
+        </activity>
+        <activity
+            android:name=".AlexanderNevskyActivity"
+            android:label="@string/title_activity_alexander_nevsky"
+            android:parentActivityName=".TemplesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.TemplesActivity" />
+        </activity>
+        <activity
+            android:name=".BashiMosqueActivity"
+            android:label="@string/title_activity_bashi_mosque"
+            android:parentActivityName=".TemplesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.TemplesActivity" />
+        </activity>
+        <activity
+            android:name=".BoyanaChurchActivity"
+            android:label="@string/title_activity_boyana_church"
+            android:parentActivityName=".TemplesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.TemplesActivity" />
+        </activity>
+        <activity
+            android:name=".CathedralActivity"
+            android:label="@string/title_activity_cathedral"
+            android:parentActivityName=".TemplesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.TemplesActivity" />
+        </activity>
+        <activity
+            android:name=".NedelyaChurchActivity"
+            android:label="@string/title_activity_nedelya_church"
+            android:parentActivityName=".TemplesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.TemplesActivity" />
+        </activity>
+        <activity
+            android:name=".RussianChurchActivity"
+            android:label="@string/title_activity_russian_church"
+            android:parentActivityName=".TemplesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.TemplesActivity" />
+        </activity>
+        <activity
+            android:name=".SofiaSynagogueActivity"
+            android:label="@string/title_activity_sofia_synagogue"
+            android:parentActivityName=".TemplesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.TemplesActivity" />
+        </activity>
+        <activity
+            android:name=".SophiaChurchActivity"
+            android:label="@string/title_activity_sophia_church"
+            android:parentActivityName=".TemplesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.TemplesActivity" />
+        </activity>
+        <activity
+            android:name=".GeorgeActivity"
+            android:label="@string/title_activity_george"
+            android:parentActivityName=".TemplesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.TemplesActivity" />
+        </activity>
+        <activity
+            android:name=".ParaskevaActivity"
+            android:label="@string/title_activity_paraskeva"
+            android:parentActivityName=".TemplesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.TemplesActivity" />
+        </activity>
+        <activity
+            android:name=".RomanianActivity"
+            android:label="@string/title_activity_romanian"
+            android:parentActivityName=".TemplesActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.TemplesActivity" />
+        </activity>
+        <activity
+            android:name=".ArchaeologicalActivity"
+            android:label="@string/title_activity_archaeological"
+            android:parentActivityName=".AttractionsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.AttractionsActivity" />
+        </activity>
+        <activity
+            android:name=".AmphitheaterActivity"
+            android:label="@string/title_activity_amphitheater"
+            android:parentActivityName=".ArchaeologicalActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.ArchaeologicalActivity" />
+        </activity>
+        <activity
+            android:name=".AncientSerdicaEastGateActivity"
+            android:label="@string/title_activity_ancient_serdica_east_gate"
+            android:parentActivityName=".ArchaeologicalActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.ArchaeologicalActivity" />
+        </activity>
+        <activity
+            android:name=".AncientSerdicaNorthWallActivity"
+            android:label="@string/title_activity_ancient_serdica_north_wall"
+            android:parentActivityName=".ArchaeologicalActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.ArchaeologicalActivity" />
+        </activity>
+        <activity
+            android:name=".SerdicaCityCentreActivity"
+            android:label="@string/title_activity_serdica_city_centre"
+            android:parentActivityName=".ArchaeologicalActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.ArchaeologicalActivity" />
+        </activity>
+        <activity
+            android:name=".AncientSerdicaRomanBathsActivity"
+            android:label="@string/title_activity_ancient_serdica_roman_baths"
+            android:parentActivityName=".ArchaeologicalActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.ArchaeologicalActivity" />
+        </activity>
+        <activity
+            android:name=".ArchitecturalMonumentsActivity"
+            android:label="@string/title_activity_architectural_monuments"
+            android:parentActivityName=".AttractionsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.AttractionsActivity" />
+        </activity>
+        <activity
+            android:name=".SeminaryActivity"
+            android:label="@string/title_activity_seminary"
+            android:parentActivityName=".ArchitecturalMonumentsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.ArchitecturalMonumentsActivity" />
+        </activity>
+        <activity
+            android:name=".MonumentsActivity"
+            android:label="@string/title_activity_monuments"
+            android:parentActivityName=".AttractionsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.AttractionsActivity" />
+        </activity>
+        <activity
+            android:name=".SaintSophiaActivity"
+            android:label="@string/title_activity_saint_sophia"
+            android:parentActivityName=".MonumentsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.MonumentsActivity" />
+        </activity>
+        <activity
+            android:name=".BattenbergMausoleumActivity"
+            android:label="@string/title_activity_battenberg_mausoleum"
+            android:parentActivityName=".MonumentsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.MonumentsActivity" />
+        </activity>
+        <activity
+            android:name=".SquaresActivity"
+            android:label="@string/title_activity_squares"
+            android:parentActivityName=".AttractionsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.AttractionsActivity" />
+        </activity>
+        <activity
+            android:name=".LionBridgeActivity"
+            android:label="@string/title_activity_lion_bridge"
+            android:parentActivityName=".SquaresActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.SquaresActivity" />
+        </activity>
+        <activity
+            android:name=".EagleActivity"
+            android:label="@string/title_activity_eagle"
+            android:parentActivityName=".SquaresActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.SquaresActivity" />
+        </activity>
+        <activity
+            android:name=".PetkoSlaveykovActivity"
+            android:label="@string/title_activity_petko_slaveykov"
+            android:parentActivityName=".SquaresActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.SquaresActivity" />
+        </activity>
+        <activity
+            android:name=".BanskiSquareActivity"
+            android:label="@string/title_activity_banski_square"
+            android:parentActivityName=".SquaresActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.SquaresActivity" />
+        </activity>
+        <activity
+            android:name=".GaribaldiSquareActivity"
+            android:label="@string/title_activity_garibaldi_square"
+            android:parentActivityName=".SquaresActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.SquaresActivity" />
+        </activity>
+        <activity
+            android:name=".PracticalInformationActivity"
+            android:label="@string/title_activity_practical_information"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AboutBulgariaActivity"
+            android:label="@string/title_activity_about_bulgaria"
+            android:parentActivityName=".PracticalInformationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.PracticalInformationActivity" />
+        </activity>
+        <activity
+            android:name=".LanguageActivity"
+            android:label="@string/title_activity_language"
+            android:parentActivityName=".PracticalInformationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.PracticalInformationActivity" />
+        </activity>
+        <activity
+            android:name=".AirportActivity"
+            android:label="@string/title_activity_airport"
+            android:parentActivityName=".PracticalInformationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.PracticalInformationActivity" />
+        </activity>
+        <activity
+            android:name=".TransportActivity"
+            android:label="@string/title_activity_transport"
+            android:parentActivityName=".PracticalInformationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.PracticalInformationActivity" />
+        </activity>
+        <activity
+            android:name=".BanksActivity"
+            android:label="@string/title_activity_banks"
+            android:parentActivityName=".PracticalInformationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.PracticalInformationActivity" />
+        </activity>
+        <activity
+            android:name=".VisasActivity"
+            android:label="@string/title_activity_visas"
+            android:parentActivityName=".PracticalInformationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.PracticalInformationActivity" />
+        </activity>
+        <activity
+            android:name=".EmergencyPhonesActivity"
+            android:label="@string/title_activity_emergency_phones"
+            android:parentActivityName=".PracticalInformationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.PracticalInformationActivity" />
+        </activity>
+        <activity
+            android:name=".TouristInformationOfficesActivity"
+            android:label="@string/title_activity_tourist_information_offices"
+            android:parentActivityName=".PracticalInformationActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.PracticalInformationActivity" />
+        </activity>
+        <activity
+            android:name=".TopTenActivity"
+            android:label="@string/title_activity_top_ten"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.MainActivity" />
+        </activity>
+        <activity
+            android:name=".IvanVazovActivity"
+            android:label="@string/title_activity_ivan_vazov"
+            android:parentActivityName=".MonumentsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.MonumentsActivity" />
+        </activity>
+        <activity
+            android:name=".DayTripsActivity"
+            android:label="@string/title_activity_day_trips"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MetroMapActivity"
+            android:label="@string/title_activity_metro_map"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sofiatourguide.sofiatourguide.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

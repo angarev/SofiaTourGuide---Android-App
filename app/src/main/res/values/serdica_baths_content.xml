@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="baths">
+        <item>
+           In the territory of Banya Bashi Mosque and the mineral water sources in the downtown found have been Roman baths and a temple dedicated to the gods of medicine Aesculapius, Hygeia, and Apollo the Healer.
+    An interesting statue of Apollo the Healer with a stick around which is wrapped a snake - an attribute considered the embodiment of his healing power is found at the site.
+        </item>
+        <item>Address: Sofia, Banski Sq.  (Click to see on the map)</item>
+        <item>@string/serdica_link</item>
+    </string-array>
+</resources>

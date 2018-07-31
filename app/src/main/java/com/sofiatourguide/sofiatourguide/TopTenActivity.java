@@ -1,0 +1,128 @@
+package com.sofiatourguide.sofiatourguide;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ListView;
+import android.widget.Toast;
+
+public class TopTenActivity extends AppCompatActivity {
+
+    ListView list;
+    String[] itemname = {
+            "1. St.Sofia Church",
+            "2. Rotunda of St. George",
+            "3. Boyana Church",
+            "4. St. Alexander Nevsky Cathedral",
+            "5. Russian Church",
+            "6. National Art Gallery",
+            "7. National Museum of History",
+            "8. The building of Ivan Vazov National Theatre",
+            "9. National Archaeological Institute and Museum",
+            "10. St. Nedelya Church"
+    };
+    String[] description = {
+            "Open",
+            "Open",
+            "Open",
+            "Open",
+            "Open",
+            "Open",
+            "Open",
+            "Open",
+            "Open",
+            "Open"
+    };
+    Integer[] imgid = {
+            R.drawable.sofia,
+            R.drawable.george,
+            R.drawable.boyana,
+            R.drawable.nevsky,
+            R.drawable.russian,
+            R.drawable.palace_main,
+            R.drawable.nim,
+            R.drawable.useinfo,
+            R.drawable.archaeological,
+            R.drawable.nedelya
+    };
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_top_ten);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+
+        CustomListAdapter adapter = new CustomListAdapter(this, itemname, imgid, description);
+        list = (ListView) findViewById(R.id.list);
+        list.setAdapter(adapter);
+
+        list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                String Selected = itemname[+position];
+                Toast.makeText(getApplicationContext(), Selected, Toast.LENGTH_SHORT).show();
+
+                switch (position) {
+                    case 0:
+                        Intent i = new Intent(getApplicationContext(), SophiaChurchActivity.class);
+                        i.putExtra("id", position);
+                        startActivity(i);
+                        break;
+                    case 1:
+                        Intent i1 = new Intent(getApplicationContext(), GeorgeActivity.class);
+                        i1.putExtra("id", position);
+                        startActivity(i1);
+                        break;
+                    case 2:
+                        Intent i2 = new Intent(getApplicationContext(), BoyanaChurchActivity.class);
+                        i2.putExtra("id", position);
+                        startActivity(i2);
+                        break;
+                    case 3:
+                        Intent i3 = new Intent(getApplicationContext(), AlexanderNevskyActivity.class);
+                        i3.putExtra("id", position);
+                        startActivity(i3);
+                        break;
+                    case 4:
+                        Intent i4 = new Intent(getApplicationContext(), RussianChurchActivity.class);
+                        i4.putExtra("id", position);
+                        startActivity(i4);
+                        break;
+                    case 5:
+                        Intent i5 = new Intent(getApplicationContext(), EthnographicInstituteActivity.class);
+                        i5.putExtra("id", position);
+                        startActivity(i5);
+                        break;
+                    case 6:
+                        Intent i6 = new Intent(getApplicationContext(), NimActivity.class);
+                        i6.putExtra("id", position);
+                        startActivity(i6);
+                        break;
+                    case 7:
+                        Intent i7 = new Intent(getApplicationContext(), IvanVazovActivity.class);
+                        i7.putExtra("id", position);
+                        startActivity(i7);
+                        break;
+                    case 8:
+                        Intent i8 = new Intent(getApplicationContext(),  NationalArchaeologicalMuseumActivity.class);
+                        i8.putExtra("id", position);
+                        startActivity(i8);
+                        break;
+                    case 9:
+                        Intent i9 = new Intent(getApplicationContext(),  NedelyaChurchActivity.class);
+                        i9.putExtra("id", position);
+                        startActivity(i9);
+                        break;
+                }
+
+            }
+        });
+    }
+
+}

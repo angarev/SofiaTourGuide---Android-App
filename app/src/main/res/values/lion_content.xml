@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="lion">
+        <item>Lion Bridge(Lavov most) is an important and busy intersection and bridge in the
+            central parts of the city. The bridge is one of the landmarks of
+            the city and a symbol of the metropolitan area Serdica. The implementation
+            began in 1889-1891 on the project of Václav Proshek.
+            Four lions symbolize hanged by the Turks, Bulgarians.</item>
+        <item>Sofia, at the intersection of Maria Luiza and Slivnitsa boulevards. \nLocation: 42.705091, 23.323873 (Click to see on the map)</item>
+    </string-array>
+</resources>

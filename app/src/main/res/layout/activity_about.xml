@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.sofiatourguide.sofiatourguide.AboutActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:titleTextColor="@color/white" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <TextView
+            android:id="@+id/textHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorDivider"
+            android:gravity="center"
+            android:text="@string/credits"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="20sp"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"/>
+        <TextView
+            android:id="@+id/textL1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textHeader"
+            android:text="@string/nim_link"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textL2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textL1"
+            android:text="@string/visit_sofia_link"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textL3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textL2"
+            android:text="@string/ethmo_link"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textL4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textL3"
+            android:text="@string/archaeological_link"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textL5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textL4"
+            android:text="@string/earth_link"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textL6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textL5"
+            android:text="@string/military_link"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textL7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textL6"
+            android:text="@string/socialist_link"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textL8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textL7"
+            android:text="@string/contemporary_link"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/textL9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textL8"
+            android:text="@string/boyana_link"
+            android:textColor="@color/colorSecondaryText"
+            android:textSize="20sp" />
+
+
+
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:background="@color/colorAccent"
+        android:src="@android:drawable/ic_dialog_email" />
+
+</android.support.design.widget.CoordinatorLayout>

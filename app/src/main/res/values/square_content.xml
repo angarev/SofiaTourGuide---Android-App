@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="square">
+        <item>
+           “Square 500”, Bulgaria’s new national gallery was officially opened on 28th of May 2015. The gallery complex is located near the monument to Vassil Levski in the capital city Sofia. n\It has a collection of over 42,000 art works from the National Art Gallery and the National Gallery for Foreign Art. The exhibition presents about 2,000 art works, half of which are by Bulgarian artists and the other come from Europe, Asia, Africa, and America.\nThe idea for the National Gallery “Square 500” has been developed for nearly 15 years. Seven ministers of culture have worked on the project
+        </item>
+        <item>
+            Working Hours: \n10 am to 6 pm;
+            \nTicket office closes at 5:30 pm;
+            \nClosed: Monday;
+        </item>
+        <item>
+            Prices: \nFor individual visitors – 10 BGN;
+            \nStudents and seniors - 1 BGN;
+            \nSecond Thursday of each month - admission free;
+        </item>
+        <item>Phone:+359 2 9800093</item>
+        <item>Address: 19th of February Street, St. Alexander Nevski Square, Sofia 1000 (Click to see on the map)</item>
+    </string-array>
+</resources>

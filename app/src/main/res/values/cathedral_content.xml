@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cathedral">
+        <item>
+            Saint Joseph is the largest Catholic cathedral in Bulgaria. It avails 350 seats and can hold up to 1,000 worshipers. The cathedral is 22 m long, 16 meters wide, 19 meters high is the main body of the building with a roof height of 23 meters. The tower is equipped with four electronically operated bells, and is 34 meters high. Over the altar stands a 8 meters high wooden cross , and below is the icon of St. Mary.
+        </item>
+        <item>
+            Working Hours: \nYou can appoint a meeting at the Parish office on our phone number, from 9 am to 15 pm. You can arrange all the matters for the Sacraments: The Sacrament of Baptism, The Sacrament of Anointing of The Sick and The sacrament of Marriage, at the Parish office.
+            You can also make an appointment for the Sacrament of Anointing of The Sick on our phone number.
+        </item>
+        <item>
+            Prices: Free;
+        </item>
+        <item>Phones: +359 2811 46 56 \n+35989 66 68 809</item>
+        <item>Address: 146, Kniaz Boris I Str., 1301 Sofia (Click to see on the map)</item>
+        <item>@string/cathedral_link</item>
+    </string-array>
+</resources>

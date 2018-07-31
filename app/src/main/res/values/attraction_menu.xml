@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="attraction">
+        <item>Museums</item>
+        <item>Galleries</item>
+        <item>Temples</item>
+        <item>Archaeological monuments</item>
+        <item>Architectural monuments</item>
+        <item>Monuments</item>
+        <item>Squares and bridges</item>
+    </string-array>
+</resources>

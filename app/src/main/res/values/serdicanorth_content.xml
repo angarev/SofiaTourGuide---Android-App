@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="north">
+        <item>
+            The remains of the north wall are exhibited in the underground floor of the Central Market Hall - Hali. The wall was built in a mixed construction of semi-rough and river stones, levelled rows of bricks. In the 6th-century AD under Emperor Justinian I, the castle was further enhanced with the optional external zone. It is believed that the city walls reached a height of 12 m, which made the centre of Serdica very well-protected.
+        </item>
+        <item>Address: Sofia, 25 Maria Lousia Blvd.  (Click to see on the map)</item>
+        <item>@string/serdica_link</item>
+    </string-array>
+</resources>

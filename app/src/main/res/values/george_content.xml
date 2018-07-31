@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="george">
+        <item>“St. George” Rotunda Church is the oldest architectural monument in Sofia and the only building in good repair, intact to the roof, dated as far back as the Roman Empire. Its construction coincides with a moment of a remarkable flourishing of Serdika as one of the largest and most considerable Roman towns on the Balkan Peninsula.
+    Since the very beginning it has been a building of a cult, probably a martyrion (a religious building devoted to a saint martyr. This opinion dominated over the supposition on a Roman Baths because of the hypocaust, being too high (1-1,20 m), while a height of  70 – 80 cm was necessary for the baths. This hypocaust served for ventilation and drainage of the floor. There aren’t any vestiges of a fireplace (prefurnium), necessary for baths’ building). The construction of the Rotunda is dated as far back as the beginning of the 4th century, from the time of Emperor Constantine the Great (306-337) who sojourned in Serdica many times. He has been credited with the phrase: “Serdica – that is my Rome”.
+    After the Edict of Milan in 313 that Emperor Constantine the Great promulgated Christianity as an allowed religion by, in the Roman Empire the Rotunda was transformed into a baptistery because of the mass conversion to Christianity.
+    In 6th century, during the rule of Emperor Justinian the Great (527-565) the Rotunda was transformed from a baptistery into a church. The first ancient painting dates back from that time. Since the same time the church is supposed to have been bearing the name of St. Great Martyr Georgi, suffered in Asia Minor during the 3rd century, at the time of Emperor Diocletian (284-305). One of the religious councils, the one in Serdica (343 Serdica’s Councel), is connected with the church. A lot of bishops of the then East and West Christian world attended this Council. The Council confirmed the Nicaea symbol of faith, exculpated St. Athanasius of Alexandria and expelled the adherents to the Aryan heresy. The vault of the Rotunda has been destroyed twice. The fundamental assumptions were, as follows: an earthquake, because of the seismic region Sofia is located in, erosion or the military inroads of the Westgoths in the end of the 4th c. and of the Huns in the 5th c. when the architectural ensemble was heavily impaired, as well as in the 9th c. – during the siege of Krum.
+    The Rotunda as an operative temple is mentioned by Vladislav Grammatik in his story about the relocation of the relics of St. Ioan Rilski from Turnovo to the Rila Monastery in the summer of 1469. In the Rotunda the Saint’s relics had been lying in state for a period of six days. During that time the church was also the Metropolitan cathedral where the relics of St. Kral Stefan Milutin were also preserved.
+    After the liberation of Bulgaria from Ottoman rule (1396-1878) the Rotunda was abandoned and neglected. Not until the death of Alexander Battenberg was it modified for a temporary mausoleum where his remains were left till their removal to the mausoleum, specially constructed for him in 1898.
+    In 1915 the Rotunda was cleaned out of everything it was provided with during its transformation into a mosque – the minaret was destroyed, the interior plaster was cleaned and the medieval paintings, comprising three layers, were uncovered.
+    After the restoration of “St. Georgi” Rotunda weekday divine service has been resumed and besides as a monument of the Christian art, evidencing the eternity of Christ’s Church, the Rotunda has been performing its most important function that it was constructed in 1600 for – to attend people along their way to God.
+    Everyday orthodox liturgy is held in the temple in the ancient liturgical language of the orthodox Slavs - Church-Slavonic, and the chants are performed by the characteristic for the ancient Orthodox Church East ecclesiastical singing, also known as Byzantine music.</item>
+        <item>
+             Working Hours: \n From 7 am to 5:30 pm;
+         </item>
+        <item>
+            Prices:  Free;
+        </item>
+         <item>
+            Phones: +35929809216;
+        </item>
+        <item>Address: Sofia, 2 Knyaz A. Dondukov Blvd. (Click to see on the map)</item>
+        <item>@string/george_link</item>
+    </string-array>
+</resources>

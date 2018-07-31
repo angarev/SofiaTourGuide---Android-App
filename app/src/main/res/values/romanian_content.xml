@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="romanian">
+        <item>The Romanian Orthodox Church "Holy Trinity" in Sofia is located in the downtown. It was built between 1905 and 1912 by Bulgarian master Vasil Gligov, after design by architect Friedrich Grunanger. The temple was officially inaugurated on 6 december 1923. </item>
+        <item>
+             Working Hours: \n From 7 am to 5:30 pm;
+         </item>
+        <item>
+            Prices:  Free;
+        </item>
+         <item>
+            Phones: +3592 983 33 48;
+        </item>
+        <item>Address: Sofia, 152 Kniaz Boris St. (Click to see on the map)</item>
+    </string-array>
+</resources>

@@ -1,0 +1,232 @@
+<resources>
+    <string name="app_name">Sofia Tour Guide</string>
+    <string name="action_settings">Settings</string>
+    <string name="logo">logo</string>
+    <string name="welcome">Welcome to Sofia</string>
+    <string name="about">About</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_attractions">Attractions</string>
+    <string name="title_activity_museum">Museums</string>
+    <string name="title_activity_top">Top 10</string>
+    <string name="arrow_right">arrow right</string>
+    <string name="museum_image">museum image</string>
+    <string name="visit_sofia_link"><a href="http://visitsofia.bg/en/">visitsofia.bg/en/</a></string>
+    <string name="title_activity_nim">National History Museum</string>
+    <string name="nim_link"><a href="http://www.historymuseum.org/en/">www.historymuseum.org/en/</a></string>
+    <string name="title_activity_basilica">St. Sophia Basilica</string>
+    <string name="basilica">+35924164077</string>
+    <string name="title_activity_mainmap">Map</string>
+    <string name="title_activity_nim_map">Nim Location</string>
+    <string name="title_activity_basilica_map">Basilica Location</string>
+    <string name="title_activity_ethnographic_institute"> National Gallery</string>
+    <string name="ethmo_link"><a href="http://www.nationalartgallerybg.org/index.php?l=62">www.nationalartgallerybg.org/index.php?l=62</a></string>
+    <string name="title_activity_ethnographic_map">"Ethnographic Map "</string>
+    <string name="title_activity_national_archaeological_museum">National Archaeological Museum</string>
+    <string name="archaeological_link"><a href="http://naim.bg/en/home/">naim.bg/en/home/</a></string>
+    <string name="title_activity_archaeological_map">Archaeological Map</string>
+    <string name="title_activity_earth_and_man_museum">"Earth and Man National Museum"</string>
+    <string name="earth_link"><a href="http://earthandman.org/">http://earthandman.org/</a></string>
+    <string name="credits">Credits</string>
+    <string name="title_activity_military_history">"Museum of Military History"</string>
+    <string name="military_link"><a href="http://www.militarymuseum.bg/index-en.html">www.militarymuseum.bg/index-en.html</a></string>
+    <string name="title_activity_socialist_art">"Museum of Socialist Art"</string>
+    <string name="socialist_link"><a href="http://nationalartgallerybg.org/index.php?l=159/">http://nationalartgallerybg.org/index.php?l=159</a></string>
+    <string name="title_activity_contemporary_art">"Museum of Contemporary Art"</string>
+    <string name="contemporary_link"><a href="http://www.samcaproject.org/?lang=en-US">http://www.samcaproject.org/?lang=en-US</a></string>
+    <string name="title_activity_galleries">Galleries</string>
+    <string name="title_activity_crypt">Crypt of St. Aleksander Nevski Cathedral</string>
+    <string name="title_activity_square">National Gallery – Square 500</string>
+    <string name="title_activity_temples">Temples</string>
+    <string name="title_activity_alexander_nevsky">"St. Alexander Nevsky Cathedral"</string>
+    <string name="title_activity_bashi_mosque">"Banya-Bashi Mosque"</string>
+    <string name="title_activity_boyana_church">"Boyana Church"</string>
+    <string name="boyana_link"><a href="http://www.boyanachurch.org/indexen.htm">www.boyanachurch.org/indexen.htm</a></string>
+    <string name="title_activity_cathedral">"Catholic Cathedral of St. Joseph "</string>
+    <string name="cathedral_link"><a href="http://sofia.capucini.bg/index.php?lang=en">sofia.capucini.bg/index.php?lang=en</a></string>
+    <string name="title_activity_nedelya_church">St. Nedelya Church</string>
+    <string name="nedelya_link"><a href="www.sveta-nedelia.org/">www.sveta-nedelia.org/</a></string>
+    <string name="title_activity_russian_church">"Russian Church "</string>
+    <string name="title_activity_sofia_synagogue">Sofia Synagogue</string>
+    <string name="synagogue_link"><a href="http://www.sofiasynagogue.com">www.sofiasynagogue.com</a></string>
+    <string name="title_activity_sophia_church">St. Sophia Church</string>
+    <string name="title_activity_george">"Rotunda of St. George "</string>
+    <string name="george_link"><a href="http://www.svgeorgi-rotonda.com/index.php?lang=en">www.svgeorgi-rotonda.com/index.php?lang=en</a></string>
+    <string name="title_activity_paraskeva">"Church of St. Paraskeva "</string>
+    <string name="title_activity_romanian">Romanian Orthodox Church</string>
+    <string name="title_activity_monasteries">Monasteries</string>
+    <string name="title_activity_archaeological">Archaeological monuments</string>
+    <string name="title_activity_amphitheater">Amphitheater of Serdica</string>
+    <string name="amphitheater_link"><a href="http://www.arenadiserdica.com/en/index.html">www.arenadiserdica.com/en/index.html</a></string>
+    <string name="title_activity_ancient_serdica_east_gate">"Ancient Serdica - East Gate "</string>
+    <string name="serdica_link"><a href="http://ulpiaserdica.com/index_en.html">ulpiaserdica.com/index_en.html</a></string>
+    <string name="title_activity_ancient_serdica_north_wall">"Ancient Serdica - North wall"
+    </string>
+    <string name="title_activity_serdica_city_centre">"Ancient Serdica - City centre "</string>
+    <string name="serdica_center">Ancient Serdica - remains of the Roman city centre</string>
+    <string name="title_activity_ancient_serdica_roman_baths">"Ancient Serdica - Roman baths and a temple"
+    </string>
+    <string name="title_activity_architectural_monuments">Architectural monuments</string>
+    <string name="title_activity_seminary">Seminary</string>
+    <string name="seminary_link"><a href="http://sofia-seminaria.org">sofia-seminaria.org</a></string>
+    <string name="title_activity_monuments">Monuments</string>
+    <string name="title_activity_saint_sophia">The Statue of Saint Sophia</string>
+    <string name="st_sofia">Saint Sophia</string>
+    <string name="title_activity_battenberg_mausoleum">The Memorial Tomb of Alexander I</string>
+    <string name="battenberg">The Memorial Tomb of Alexander I of Battenberg</string>
+    <string name="title_activity_squares">Squares and bridges</string>
+    <string name="title_activity_lion_bridge">Lion Bridge</string>
+    <string name="lion_bridge" />
+    <string name="title_activity_eagle">Eagle Bridge</string>
+    <string name="eagle_bridge" />
+    <string name="title_activity_petko_slaveykov">Petko Slaveykov Square</string>
+    <string name="petko_slaveykov_square" />
+    <string name="title_activity_banski_square">Banski Square</string>
+    <string name="banski_square" />
+    <string name="title_activity_garibaldi_square">Garibaldi Square</string>
+    <string name="garibaldi_square" />
+    <string name="title_activity_iseful_information">Iseful Information</string>
+    <string name="title_activity_practical_information">Practical information</string>
+    <string name="practical_information">Practical information</string>
+    <string name="title_activity_about_bulgaria">About Sofia</string>
+    <string name="about_bulgaria">Sofia is the largest city and the capital of Bulgaria, as well as the 15th largest city in the European Union with a population of 1,291,591 people. Sofia is a cosmopolitan city of different nationalities and cultures. They elegantly coexist in the historic downtown, which has become a kind of open-air museum with preserved remains of ancient civilizations.\n\n
+        \n<b>HISTORY</b>\n\n
+        \nSofia is one of the oldest European capitals. Its history dates back to ca 7th millennium BC. In 6th–5th century BC, there there had been a Neolithic settlement here. In the 8th century BC, the Thracian tribe of the Serds settled around the thermal springs in the present-day downtown. Their settlement was called Serdonpolis. At the beginning of the 1st century AD, the Romans took the city and it became an administrative centre in the province of Thrace under the name of Serdica, and was later renamed Ulpia Serdica in honour of Emperor Trajan Marcus Ulpius. At the end of the 3rd century AD, it became the capital of the province of Inner Dacia. The city suffered the incursions of Huns, Goths and other barbarian tribes in the 5th–6th century period. In AD 809, it became part of the Bulgarian state and because of its central location received the name Sredets. In the 1018–1194-period the city was included in the territory of the Byzantine Empire under the name of Triaditsa. Later, it was called Sofia. The oldest source mentioning the modern name of the city is a charter from 1382, presented by Tsar Ivan Shishman to the Dragalevtsi Monastery. From the 14th century onwards, until 4 January 1878 the city was part of the Ottoman Empire. Sofia was liberated by the Russian army under the command of General Gurko. On 3 April 1879, on a proposal of Professor Marin Drinov, Bulgarian historian, the Constitutive Assembly in Veliko Tarnovo designated the city for a capital of the Principality of Bulgaria.\n\n
+        \n<b>LOCATION</b>\n\n
+        \nSofia is located at about 550 m asl, in the foothill of the northern slope of the Vitosha, in the Sofia plain enclosed by mountains on all sides. As early as Antiquity, the five mountain passes leading to the city (Iskar, Vladaya Dragoman, Petrohan and Botevgrad) and the roads passing there connected the Adriatic and Central Europe with the Black and Aegean Seas and the Middle East. Thanks to its central position in the Balkans, Sofia is a large and flourishing city to this day. Since the remote past the city is known for its numerous hot and cold mineral springs (15 fields with a total output of mineral water of 130 l/sec). The Iskar, the longest river running entirely in the territory of Bulgaria, traverses the city.\n\n
+        \n<b>CLIMATE</b>\n\n
+        \nThe climate of Sofia is temperate continental. The city is protected from strong winds by the mountains that surround it. The rainfall balance can be characterized as normal, which is a precondition for various outdoor activities throughout the year.\n    </string>
+    <string name="title_activity_language">Language</string>
+    <string name="language">The official language in Sofia is Bulgarian. It is based on the Bulgarian, so-called Cyrillic alphabet. Bulgaria is the only country in the world that has its holiday of literacy, education and culture. It is celebrated every year on 24 May, when Bulgaria honours the work of the holy brotherd Cyril and Methodius who devised the alphabet. Nowadays the Cyrillic alphabet is used not only by Bulgarians, but by Serbs, Montenegrins, Russians, Ukrainians, Belarusians, as well as by non-Slavic peoples like Mongols. A total of over 200 million people! With the accession of Bulgaria to the European Union on 1 January 2007, the Cyrillic alphabet became one of the official alphabets in the community.\n\n
+        \n<b>Bellow you will find some common Bulgarian words and phrases:</b>\n
+
+        \nWelcome: Добре дошъл (Dobre doshal);\n
+        \nHello:  Здравейте (Zdravejte);\n
+        \nPleased to meet you: 	Радвам се да се запознаем (Radvam se da se zapoznaem);\n
+        \nGood morning: Добро утро (Dobro utro);\n
+        \nGood afternoon: Добър ден (Dobar den);\n
+        \nGood evening: Добър вечер (Dobar vecher);\n
+        \nGood night: 	Лека нощ (Leka nost);\n
+        \nGoodbye: Довиждане (Dovigdane) or Чао (Chao);\n
+        \nThank you: Благодаря ви (Blagodarya vi);\n
+        \nHow much is this?: Колко струва това? (Kolko struva tova?);\n
+        \nPlease: Моля (Molja);\n
+        \nSorry: Съжалявам! (Sagaliavam);\n
+        \nExcuse me: Извинявам се (Izvinjavam se);\n
+        \nHow are you?:  Как си? (Kak si?);\n\n
+
+        \n<b>Days and expressions of time:</b>\n
+
+        \nMonday: Понеделник (Ponedelnik);\n
+        \nTuesday: Вторник (Vtornik);\n
+        \nWednesday: Сряда (Sriada);\n
+        \nThursday: Четвъртък (Chetvartak);\n
+        \nFriday: Петък (Petak);\n
+        \nSaturday: Събота (Sabota);\n
+        \nSunday: Неделя (Nedelya);\n
+        \nToday: Днес (Dnes);\n
+        \nTomorrow: Утре (Utre);\n
+        \nYesterday: Вчера (Vchera);\n\n
+
+        \n<b>Restaurant vocabulary:</b>\n
+
+        \nThe bill: Сметката (Smetkata);\n
+        \nTo drink: Да пия (Da piya);\n
+        \nTo eat: Да ям (Da yam);\n
+        \nCheers: Наздраве! (Nazdrave);\n
+        \nWater: Водa (Voda);\n
+        \nWine: Вино (Vino);\n
+        \nBeer: Бира (Bira);\n
+        \nBread: Хляб (Hliab);\n
+        \nDessert: Десерт (Desert);\n
+        \nMeat: Месо (Meso);\n
+        \nFish: Риба (Riba);\n
+        \nFruit: Плод (Plod);\n
+        \nVegetable: Зеленчук (Zelenchuk);\n
+        \nIce cream: Сладолед (Sladoled);\n
+        \nHave a nice meal: Добър апетит (Dobar apetit);\n
+
+        \n<b>Other languages:</b>\n
+
+        \nMany residents of Sofia understand English, Russian, German, French and Spanish. A lot of restaurants have menus in other languages and public transport sings are also in English.
+    </string>
+    <string name="title_activity_airport">Airport</string>
+    <string name="airport"><b>Name:</b> Sofia International Airport\n<b>Distance to city centre:</b> 10 km from downtown Sofia\n\n<b>Access Information:</b>\n\n<b>by  Metro</b> - Sofia Metro Line 1 connects Sofia Airport to the city centre and provides direct connection from the airport to the large residential complexes in close proximity – “Druzhba” and “Mladost”, as well as to more distant complexes to the west – “Zapaden Park” and “Lyulin”. Changing trains from Line 1 to Line 2 at Serdika Metro Station, passengers can travel from the airport to Sofia Central Bus and Railway Stations within less than half an hour. The metro trains on the route to the airport operate from 5:30 a.m. to midnight on weekdays and weekends/holidays.
+        The metro station at Sofia Airport is located in the eastern part of Terminal 2. You can reach it by following the floor markings in blue at the public area of Terminal 2. Sofia Airport provides free-of-charge transportation between the two terminal buildings. The shuttle bus stops located in front of the terminal buildings are designated by signage and pavement markings.\n\n \n<b>By public transport</b> - bus route 84 (Terminal 1) and bus route 284 (Terminal 2).\n\n<b>Tickets and Baggage</b>\n
+      You can buy tickets for the public transport at Sofia Airport from the kiosks of Razprostranenie na Pechata in the public areas of Terminal 1 and Terminal 2, or, alternatively, from the ticket machine in the public area of Terminal 1, Arrivals. The machine accepts Bulgarian banknotes and coins, and the tickets are valid for bus lines Nos 84 and 384.
+       Ticket machines for metro tickets are located at Sofia Airport Metro Station. The ticket machines accept Bulgarian banknotes and coins, and one of them accepts credit cards as well.\n\n
+       \n<b>Important:</b> Any piece of baggage exceeding 60х40х40 cm requires a separate ticket.
+    </string>
+    <string name="title_activity_transport">Transport</string>
+    <string name="transport">Sofia has a modern city transport network that serves the entire city. The main operator is Sofia Urban Mobility Center. The company has a large fleet of 535 buses, 93 trolleybuses and 156 trams which pass throughout the city. Metropoliten is the municipality-owned company that operates the Sofia Metro with 26 trainsets on 2 lines.\n\n
+        \n<b>TICKETS</b>
+        \nSingle travel ticket – 1 BGN;\n
+        \nSingle travel ticket from the driver – 1 BGN;\n
+        \nSingle travel ticket from the ticket vending machine in trolleys and trams – 1 BGN;\n
+        \nSingle travel ticket from the ticket vending machine or the ticket office  in the metro – for the metro – 1 BGN;\n
+        \nElectronic ticket for ten travels for one passenger loaded in electronic card, tor trams and trolleys – 8 BGN;\n
+        \nElectronic ticket for ten travels, loaded in electronic card, for metro – 8 BGN;\n\n
+        \n<b>Important:</b> Any piece of baggage exceeding 60х40х40 cm requires a separate ticket.\n\n
+
+        \n<b>METRO</b>\n\n
+        \nSingle trip card  -  Price: 1,00 BGN.\n
+        \nThe card is issued by Transport Documents Machine at the entrances of the metro or by a cashier at the cash-desks of "Metropoliten" JSC and is validated at the validator located on the barriers to the metro entrance. The card can be used for entrance to the metro up tp 30 minutes after its issuance.\n\n
+
+        \nElectronic card for 10 single trips Price: 8,00 BGN.\n\n
+        \nCharging the electronic card issued and loaded by "Metropoliten" JSC takes place at the validators located at the barriers to entry in the metro. Anytime when charging the card the number of remaining trips are reduced by one. E-cards are purchased and their value is 1.00 BGN VAT including. Each e-card has a 3 year validity from the date of its first refueling of trips in the system.\n\n
+
+        \n<b>CARDS</b>\n\n
+
+        \nDaily - for evey line of the city public transport - Price: 4,00 BGN.
+        \nMonthly - for metro - Price: 35,00 BGN. (customized); 42,00 BGN. (non customized)
+        \nPaper and e-cards can be issued by each cash-desks of the metro stations.
+
+    </string>
+    <string name="title_activity_banks">Banks and currency information</string>
+    <string name="banks_and_currency">The monetary unit in the Republic of Bulgaria is the lev (BGN), which is equal to 100 stotinki. Since 1997, the country has been governed by a currency board
+        and the value of the lev has been pegged to the Euro, at a fixed rate of 1 EUR – 1.95583 BGN.
+        Currency can be exchanged in banks or in any of the many currency exchange offices.
+        Some of these exchange offices also work on holidays. Euro-cheques can be exchanged in banks.
+        Credit cards: Most Bulgarian hotels and stores now accept VISA, MasterCard,
+        American Express, and Diners Club credit cards.
+        You can find current currency information on the site of the Bulgarian National Bank: www.bnb.bg</string>
+    <string name="title_activity_visas">"Visas and Border Control "</string>
+    <string name="visas_and_border_control">
+        \n At present, Bulgaria issues only national visas, which do not give visitors the right to enter the Schengen area. Visas are issued by the diplomatic and consular representatives of the Republic of Bulgaria, or by representatives of another member state of the European Union with which Bulgaria has an agreement for the presentation and acceptance of applications for visas and the issuance of visas.\n\n
+        \n Available visa types are as follows:
+        \n 1. Airport transit (visa type "A");
+        \n 2. Short-term stay (visa type "C");
+        \n 3. Long-term stay (visa type "D").
+        \nVisitors can find further information on the application procedures and required documents for the issuance of visas, as well as the address of consular offices, on the website of the Ministry of Foreign Affairs - www.mfa.bg.\n\n
+
+        \nBorder control is implemented upon entering or exiting Bulgaria. The following border control checkpoints (BCCP) operate at the borders of the country. Along the Bulgaria-Serbia border are checkpoints BCCP Bregovo, BCCP Vrashka Chuka, BCCP Kalotina, BCCP Strezimirovtsi, BCCP Oltomantsi; along the Bulgaria-Macedonia border are the checkpoints BCCP Gyueshevo, BCCP Stanke Lisichkovo, BCCP Zlatarevo; along the Bulgaria-Turkey border are the checkpoints BCCP Malko Tarnovo, BCCP Lesovo, BCCP Kapitan Andreevo; along the Bulgaria-Greek border are the checkpoints BCCP Kulata, BCCP Ilinden, BCCP Kapitan Petko Voyvoda, BCCP Ivaylovgrad, BCCP Zlatograd; along the Bulgaria-Romania border are the checkpoints BCCP Vidin – ferryboat, BCCP Oryahovo – ferryboat, BCCP Ruse – Danube bridge, BCCP Silistra, BCCP Kardam, BCCP Durankulak; at the river ports are BCCP Vidin, BCCP Lom, BCCP Somovit - Nikopol, BCCP Svishtov, BCCP Ruse, BCCP Tutrakan, BCCP Silistra; at the sea ports there are BCCP Balchik, BCCP Varna, BCCP Burgas, BCCP Tsarevo; and at the airports are BCCP Sofia Airport, BCCP Plovdiv Airport, BCCP Gorna Oryahovitsa Airport, BCCP Varna Airport, and BCCP Burgas Airport. Verification of documents and inspection of motor vehicles, freight, and personal effects is performed at these checkpoints, and complete documentation is conducted for persons who enter or exit the country, including verification of names, passport data, final destination of the trip, and the purpose of the visit. Depending on the location of the checkpoint, people and luggage may be examined with an X-ray scanner or metal detector, and video recording equipment may be employed.
+    </string>
+    <string name="title_activity_emergency_phones">Emergency phones</string>
+    <string name="emergency_phones">112 is the number that you can call for free to emergency services in the European Union from a landline or mobile phone. A specially trained operator will answer your call. \nDepending on country or operator will directly deal with your call will be transfer it to the most appropriate emergency service. Tell your name, address and telephone number.
+Callers need to be identified to avoid confusion - possibly the same incident have already been reported by other people. Do not hang up if you dialed 112 by mistake!
+\nTell the operator that everything is okay. Otherwise, they have to sent emergency team to verify that there is no problem. Dial 112 for any emergency that required an ambulance, fire department or police.
+\nDo not call 112 for traffic information, weather information, general questions and information. Unwanted calls can overload the system, risking the lives of those who really need emergency care.
+</string>
+    <string name="title_activity_tourist_information_offices">Tourist information offices</string>
+    <string name="tourist_information_centres">
+        <b>Tourist Information Centre – Sofia</b>\n
+        \n22 Tsar Osvoboditel Blvd.(in the underpass of St Kliment Ohridski Sofia University)
+        \nTel.: +359 2 491 83 44; +359 2 491 83 45
+        \ntourist@info-sofia.bg
+        \nwww.info-sofia.bg
+        \nwww.visitsofia.bg\n
+        \n<b>The Largo Tourist Information Centre</b>\n
+        \nMetrostation Serdica 2
+        \nTel.: +359 889 599 240; +359 885 921 627; +359 2 49 49 315\n
+        \n<b>Info Point Chitalnyata (The reading room)</b>\n
+        \nIn the City garden
+        \nTel.: +359 885 921 620
+    </string>
+    <string name="title_activity_top_ten">Top 10</string>
+    <string name="title_activity_ivan_vazov">Ivan Vazov National Theatre</string>
+    <string name="ivan_vazov">Ivan Vazov National Theatre</string>
+    <string name="ivan_vazov_link"><a href="http://new.nationaltheatre.bg/en/">http://new.nationaltheatre.bg/en/</a></string>
+    <string name="title_activity_day_trips">Day Trips</string>
+    <string name="title_activity_metro_map">Metro Map</string>
+    <string name="metro_map">Metro Map</string>
+
+</resources>

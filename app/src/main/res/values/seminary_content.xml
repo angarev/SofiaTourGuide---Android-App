@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="seminary">
+        <item>
+            St. Ivan Rilski Sofia Seminary is the major seminary of the Bulgarian Orthodox Church. St. Ivan Rilski Sofia Seminary was founded in 1903 as a secondary religious school. In 1902 the first stone was laid for the construction of a separate seminary building in Sofia by Tsar Ferdinand I. It was built in Lozenets Quarter, after the design by Frederick Gruenanger and was completed in 1905. The courtyard of the seminary is situated on 98 acres of green space. There are planted extremely rare plant species. The eastern part is located playground, which consists of a football field with grass cover and tennis courts, which are used year-round. For us the individual student is important for every efforts of well-trained educators to advance in education and education in Orthodox values. For us it is important to instill good citizens of the Republic of Bulgaria.
+        </item>
+        <item>
+            Working Hours: Open;
+        </item>
+        <item>
+            Prices: Free;
+        </item>
+         <item>
+            Phone: \n+359 2 868 01 44;
+        </item>
+        <item>Address: Sofia 2 Velchova Zavera Sq. \nLocation: 42.675755, 23.336118 (Click to see on the map)</item>
+        <item>@string/seminary_link</item>
+    </string-array>
+</resources>

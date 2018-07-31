@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="east">
+        <item>
+            The East Gate of Serdica is located in the underpass between the Council of Ministers, the National Assembly and the Presidency. At this place passed the original Roman street, which according to archaeologists, was last renovated in the 6th century. The gate was protected by two triangular turrets. From here south-east to Philippopolis (modern Plovdiv) continued one of the most important roads in the Roman Empire - Via Diagonalis or Via Militaris. In the wall opposite the subway gate there is a plan of Roman Serdica.
+        </item>
+        <item>Address:Sofia, Nezavisimost Sq. (Click to see on the map)</item>
+        <item>@string/serdica_link</item>
+    </string-array>
+</resources>

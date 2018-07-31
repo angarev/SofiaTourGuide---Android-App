@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="amphitheater">
+        <item>
+            In the basement of the Arena di Serdica Hotel you can see these remains partially exhibited. The building was built at the end of the 3rd-early 4th centuy AD on the ruins of the ancient Greek theatre type building, dating from the 2nd century AD.</item>
+        <item>
+            Working Hours: 00:00 - 24:00;
+        </item>
+         <item>
+            Phones: \n+359 886 107 777;
+        </item>
+        <item>Address: 2 Budapeshta Str., Sofia (Click to see on the map)</item>
+        <item>@string/serdica_link</item>
+    </string-array>
+</resources>

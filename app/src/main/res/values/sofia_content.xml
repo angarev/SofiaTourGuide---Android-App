@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sofia">
+        <item>
+            The St Sophia Church is the second oldest church in the Bulgarian capital Sofia, dating to the 6th century AD. In the 14th century, the church gave its name to the city, previously known as Sredets. The church was built on the site of several earlier churches and places of worship dating back to the days when it was the necropolis of the Roman town of Serdica. In the 2nd century AD, it was the location of a Roman theatre. Over the next few centuries, several other churches were constructed, only to be destroyed by invading forces such as Goths and Huns. The basic cross-shape design of the present basilica, with its two east towers and one tower-cupola, is believed to be the fifth structure to be constructed on the site and was built during the reign of Byzantine Emperor Justinian I in the middle of the 6th century (527-565). It is thus a contemporary of Hagia Sophia Church in Constantinople.
+        </item>
+        <item>
+            Working Hours: \n9 am to 7 pm.
+        </item>
+        <item>
+            Prices: Free;
+        </item>
+        <item>Phone: +3592 987 09 71</item>
+        <item>Address: Sofia, 2 Paris St. (Click to see on the map)</item>
+    </string-array>
+</resources>

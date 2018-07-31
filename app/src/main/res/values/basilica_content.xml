@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="basilica">
+        <item>
+            The temporary exposition presents the development of the main necropolis of Serdica and of the early temple buildings beneath – 18 centuries of history before you. The exposition is supplemented by multimedia presentations and hologram images of artifacts found during the studying of the temple building over the years.
+        </item>
+        <item>
+            Working Hours: \n10 am to 5 pm (Tuesday - Sunday).
+        </item>
+        <item>
+            Prices: 2 - 4 BGN.
+        </item>
+         <item>@string/basilica</item>
+        <item>Address: 1000 Sofia, 2 Paris Str. (Click to see on the map)</item>
+    </string-array>
+</resources>

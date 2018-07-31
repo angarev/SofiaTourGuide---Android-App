@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="russian">
+        <item>
+            The Russian Church, officially known as the Church of St Nicholas the Miracle-Maker, is a Russian Orthodox church. The church was built on the site of the Saray Mosque, which was destroyed in 1882, after the liberation of Bulgaria by Russia from the Ottoman Empire. It was built as the official church of the Russian Embassy, which was located next door, and of the Russian community in Sofia, and was named, as was the tradition for diplomatic churches, for the patron saint of the Emperor who ruled Russia at the time, Nicholas II of Russia. The church was designed by the Russian architect Mikhail Preobrazhenski in the Russian Revival Style, with decoration inspired by the Muscovite Russian churches of the 17th century.
+        </item>
+        <item>
+            Working Hours: \n7 am to 5:30 pm.
+        </item>
+        <item>
+            Prices: Free.
+        </item>
+        <item>Phone: +3592 986 27 15;</item>
+        <item>Address: Sofia, 3 Tsar Osvoboditel blvd. (Click to see on the map)</item>
+    </string-array>
+</resources>

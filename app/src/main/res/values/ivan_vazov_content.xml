@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ivanvazov">
+        <item>Ivan Vazov National Theatre is the oldest and most authoritative theatre in Bulgaria after the Liberation. The building of Ivan Vazov National Theatre was built after the design of the Viennese architects Hermann Helmer and Ferdinand Fellner. It was completed in 1906 and opened for performances in 1907.</item>
+        <item>
+             Working Hours: \n From 9.30 am to 7:30 pm;
+         </item>
+        <item>
+            Prices:  ---;
+        </item>
+         <item>
+            Phones: +35928119227;
+        </item>
+        <item>Address: Sofia, 5 Dyakon Ignatiy St.  \nLocation: 42.694344, 23.326221 (Click to see on the map)</item>
+        <item>@string/ivan_vazov_link</item>
+    </string-array>
+</resources>

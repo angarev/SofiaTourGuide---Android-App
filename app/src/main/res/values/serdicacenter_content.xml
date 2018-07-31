@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="center">
+        <item>
+            The remains of the Roman city centre are located on Sveta Nedelia Square and in front Sheraton and TZUM - Central Department Store. Documented are the foundations of a great public building under the square and in the Church of St Nedelya.
+        </item>
+        <item>Address: Sofia, Sveta Nedelia Sq. (Click to see on the map)</item>
+        <item>@string/serdica_link</item>
+    </string-array>
+</resources>

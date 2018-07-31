@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="boyana">
+        <item>
+            The Church of Saint Nicholas and Saint Panteleimon, also known as Boyana Church, is famous for its medieval frescoes. The church is a cultural monument under UNESCO protection, inscribed in the World Heritage List in 1979.
+\nSeveral building stages can be distinguished in the structure of Boyana Church. A small cross-domed church was built between the 10th – 11th centuries, known as the Old church. It was renovated in the 12th century. In the 13th century, a narthex and a small upper-floor chapel were added to the western façade of the Old Church. In the middle of the 19th century a two-storied anteroom was constructed, dedicated to Saint Nicholas and Saint Panteleimon. The Boyana Church operated until 1954.
+\nThe donator’s inscription written in Old Bulgarian in the church narthex indicates the year (1259) when the church decoration was completed, the names of the donators and the family relation of the local feodal-donator to the BulgarianTsar and the SerbianKing.
+The 13th century freascoes in the nave follow the general principles of the Christian canon for church mural painting. The apse features the grand image of Christ Pantocrator. Underneath, the drum exhibits paintings of angels and the four Evangelists. The altar conch depicts the Holy Virgin Enthroned, Melismos, the Annunciation. On the walls and arcs are presented scenes from the life of Christ.
+\nThe life of Saint Nicholas is represented in 18 compositions located in the narthex (probably a burial chapel). Here are depicted the donator’s portraits – Sebastokrator Kaloyan and his wife Desislava, the Bulgarian Tsar Constantin-Asen Tikh and Tzaritsa Irina, as well as the first known image of the Bulgarian Saint Ivan of Rila.
+The frescoes on the second floor of the chapel of Saint Panteleimon are from the same period but differ in style. There are preserved fragments from the Annunciation, the Crucifixion, the Resurrection and  scenes from the life of Saint Panteleimon.
+Boyana church is unique with the multitude of colors, versatility and images of profound psychological complexity. The frescoes dating back to 1259 reflect the 13th century traditions of the Turnovo School of Painting. The unknown master follows the classical composition of the iconography. His artistic work is bright, compact, the images radiate vitality, rich spirituality, the portrait characteristics of the depicted donators figures are emphasized. The master painter innovative approach placed Saint Nicholas and Saint Panteleimon church on the World Heritage List.
+\nThe restoration of Saint Nicholas and Saint Panteleimon church started in the middle of the 20th century and was completed in 2006 following a fundraising campaign initiated by the National Museum of History.
+        </item>
+        <item>
+            Working Hours:\nEveryday from Monday till Sunday
+            \n9:30am to 5:30 pm (April-October);
+            \n9 am to 5 pm (November to March);
+        </item>
+        <item>
+            Prices:Adults - 10 BGN; \nStudents - 2 BGN;
+        </item>
+         <item>
+            Phones: \n+359 02 959 09 39;
+            \n +359 896 716 811;
+        </item>
+        <item>Address: 3 Boyansko Ezero Str., Sofia 1616 <b>(Click to see on the map)</b></item>
+        <item>Transport: Bus - № 64, 107;</item>
+        <item>@string/boyana_link</item>
+    </string-array>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ethno">
+        <item>
+            The National Museum of Bulgarian Art is the largest and most respectable institution of its kind in Bulgaria.
+            Over the years, it has established its position as a center for national cultural heritage and values.
+            The collection was started in 1892 when the People’s Museum of Archeology founded its Department of Art.
+            By virtue of an express resolution of the Council of Ministers in 1948 National Art Gallery
+            was pronounced an independent entity.\nThe museum’s collection of New and Contemporary Bulgarian art
+            from the period since Bulgaria’s Liberation in 1878 up to the 1990s consists of more than
+            30 000 individual pieces of paintings, prints and sculptures. The collection of paintings by Bulgarian masters
+            is the most comprehensive. The collection of black and white drawings is also very rich.
+            The museum’s expositions feature some of the best achievements of Bulgarian sculptors of the 20th century.
+            \nExpositions are regularly organized in the halls of the museum.
+            There are about ten of them held here each year. They are usually dedicated to prominent Bulgarian artist or major issues in the
+            New and Contemporary Bulgarian Art. Mixed expositions by various artists organized on regular basis
+            illustrate the diversity of the artistic process from the first days of independence till the present.
+        </item>
+        <item>
+            Working Hours: \n10 am to 6 pm;
+            \nClosed: Monday;
+        </item>
+        <item>
+            Prices:  Adults 6 BGN; \nStudents and seniors - 3 BGN; \nPeople with disabilities - admission free;
+            \nLecture for group of 5 persons - 20 BGN;
+            \nLecture for group of more than 5 persons - 30 BGN;
+            \nTicket office closes at 5:30 pm.
+        </item>
+         <item>
+            Phone: \n+359 2 9080093
+        </item>
+        <item>Address: Sofia, 1 Kniaz Alexandar I Sq.  <b>(Click to see on the map)</b></item>
+        <item>@string/ethmo_link</item>
+    </string-array>
+</resources>

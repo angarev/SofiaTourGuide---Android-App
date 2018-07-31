@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nevsky">
+        <item>
+            St. Alexander Nevsky Cathedral is a Bulgarian Orthodox cathedral. Built in Neo-Byzantine style, it serves as the cathedral church of the Patriarch of Bulgaria, the biggest one in the country and second largest in the Balkans.
+            The Cathedral occupies an area of 3,170 sq m and accommodates 10,000 people. Its magnificent silhoutte, lavish ornamentation, masterpieces of iconpainting and great acoustics make its one of Sofia great attractions.
+        </item>
+        <item>
+            Working Hours: 7 am to 5:30 pm;
+        </item>
+        <item>
+            Prices: Free;
+        </item>
+        <item>Phone: +3592 988 17 04</item>
+        <item>1, St. Alexander Nevski Square, Sofia 1000. \nLocation 42.695791,23.332723 (Click to see on the map)</item>
+    </string-array>
+</resources>

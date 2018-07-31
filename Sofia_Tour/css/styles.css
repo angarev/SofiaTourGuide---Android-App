@@ -1,0 +1,782 @@
+body {
+  background-color: #ffffff;
+  font: 100 16px/1.8 Roboto;
+  color: rgb(0, 0, 0);
+}
+
+section {
+  position: relative;
+  float: left;
+  clear: both;
+  width: 960px;
+}
+
+section:first-child {
+  clear: none;
+}
+
+.about {
+  height: 368px;
+  margin-top: 96px;
+}
+
+.about .intro {
+  position: absolute;
+  top: 140px;
+  left: 571px;
+  z-index: 6;
+  width: 383px;
+  padding: 5px;
+  font-size: 16px;
+  text-align: justify;
+  color: rgb(0, 0, 0);
+}
+
+.download {
+  display: block;
+  position: absolute;
+  top: 392px;
+  left: 571px;
+  z-index: 13;
+  width: 144px;
+  height: 60px;
+  border-bottom: 5px solid rgb(219, 164, 11);
+  border-radius: 3px;
+  background-color: rgb(252, 192, 18);
+  font: 400 16px/1.38 Lato;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(254, 252, 252);
+}
+
+.download:active,
+.download:focus,
+.download:hover {
+  border-bottom-width: 0;
+  border-bottom-style: none;
+}
+
+.header-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 17;
+  width: 100%;
+  height: 78px;
+  background-color: rgba(2, 2, 2, 0.08);
+}
+
+.image {
+  display: block;
+  float: left;
+  width: 552px;
+  height: auto;
+  overflow: hidden;
+}
+
+.intro .intro {
+  position: absolute;
+}
+
+.iphone {
+  display: block;
+  position: absolute;
+  top: 35px;
+  left: 42.5%;
+  width: 551px;
+  height: auto;
+  overflow: hidden;
+}
+
+.logo {
+  display: block;
+  position: absolute;
+  top: 1px;
+  left: 8.5335286458%;
+  z-index: 16;
+  width: 125px;
+  height: auto;
+  overflow: hidden;
+}
+
+.main {
+  float: left;
+  width: 960px;
+  height: 1472px;
+  margin: 648px 0 0 10%;
+}
+
+.service {
+  height: 582px;
+  margin-top: 100px;
+  background-color: rgb(252, 192, 18);
+}
+
+.service .intro {
+  position: absolute;
+  top: 150px;
+  left: 33px;
+  z-index: 2;
+  width: 356px;
+  padding: 5px;
+  font-size: 16px;
+  text-align: justify;
+  color: rgb(249, 249, 249);
+}
+
+.take-tour {
+  display: block;
+  position: absolute;
+  top: 392px;
+  left: 244px;
+  z-index: 14;
+  width: 144px;
+  height: 60px;
+  border-bottom: 5px solid rgb(219, 164, 11);
+  border-radius: 3px;
+  background-color: rgb(252, 192, 18);
+  font: 400 16px/1.38 Lato;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(254, 252, 252);
+  -webkit-transition: 2s easy;
+  -moz-transition: 2s easy;
+  -o-transition: 2s easy;
+  -ms-transition: 2s easy;
+  transition: 2s easy;
+}
+
+.take-tour:active,
+.take-tour:focus,
+.take-tour:hover {
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-bottom-style: none;
+  border-left-style: none;
+}
+
+._container {
+  position: absolute;
+  top: 0;
+  left: 120px;
+  z-index: 18;
+  width: 960px;
+  height: 550px;
+  background-image: url('../images/negativespace-15.jpg');
+  background-size: cover;
+  background-position: left top;
+}
+
+._text {
+  position: absolute;
+  font-family: Lato;
+  font-weight: 900;
+  line-height: 1.38;
+  text-transform: uppercase;
+}
+
+.about ._text {
+  top: 0;
+  left: 571px;
+  z-index: 5;
+  width: 389px;
+  padding-left: 15px;
+  border-left: 5px solid rgb(219, 164, 11);
+  font-size: 33px;
+  color: rgb(0, 0, 0);
+}
+
+.intro ._text {
+  top: 0;
+  left: 0;
+  z-index: 9;
+  width: 389px;
+  padding-left: 15px;
+  border-left: 5px solid rgb(219, 164, 11);
+  font-size: 33px;
+  color: rgb(0, 0, 0);
+}
+
+.service ._text {
+  top: 45px;
+  left: 40px;
+  z-index: 1;
+  width: 348px;
+  padding-left: 15px;
+  border-left: 5px solid rgb(253, 253, 251);
+  font-size: 33px;
+  color: rgb(252, 250, 250);
+}
+
+.intro-1 {
+  height: 326px;
+}
+
+.intro-2 {
+  top: 125px;
+  left: 0;
+  z-index: 10;
+  width: 383px;
+  padding: 5px;
+  font-size: 16px;
+  text-align: justify;
+  color: rgb(0, 0, 0);
+}
+
+.intro-3 {
+  display: block;
+  top: 0;
+  left: 42.1923828125%;
+  z-index: 8;
+  width: 554px;
+  height: auto;
+  overflow: hidden;
+}
+
+._text-1 {
+  top: 140px;
+  left: 0;
+  right: 0;
+  z-index: 15;
+  width: 634px;
+  margin: 0 auto;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+  font-size: 60px;
+  text-align: center;
+  color: rgb(253, 250, 250);
+}
+
+.intro em {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
+@media(max-width: 992px) {
+  body {
+    font-size: 16px;
+  }
+
+  .about .image {
+    width: 389px;
+    height: auto;
+    margin-left: -0.1064%;
+  }
+
+  .about .intro {
+    top: 86px;
+    left: 404px;
+    width: 389px;
+    line-height: 1.6;
+  }
+
+  .header-nav .logo {
+    top: 0;
+    left: 5.7112261288%;
+    width: 101px;
+    height: auto;
+  }
+
+  .main {
+    width: 979px;
+    height: 1559px;
+    margin-top: 561px;
+    margin-left: 10.08065%;
+  }
+
+  .main .about {
+    width: 793px;
+    height: 263px;
+  }
+
+  .main .service {
+    margin-top: 360px;
+    margin-left: 2.03922%;
+  }
+
+  .service .intro {
+    top: 191px;
+    left: -297px;
+    width: 389px;
+    line-height: 1.6;
+  }
+
+  .service .iphone {
+    top: 81px;
+    left: 3.4358723958%;
+    height: auto;
+  }
+
+  ._container {
+    left: 102px;
+    width: 791px;
+    height: 506px;
+  }
+
+  .about ._text {
+    left: 404px;
+    font-size: 26px;
+  }
+
+  .intro ._text {
+    left: -3px;
+    width: 301px;
+    font-size: 26px;
+  }
+
+  .service ._text {
+    top: 46px;
+    left: -297px;
+    font-size: 26px;
+  }
+
+  .intro .intro-2 {
+    top: 86px;
+    width: 386px;
+    line-height: 1.6;
+  }
+
+  .intro .intro-3 {
+    top: 7px;
+    left: 50.821744627%;
+    width: 389px;
+    height: auto;
+  }
+
+  .main .intro-1 {
+    width: 791px;
+    height: 258px;
+    margin-left: 0.20408%;
+  }
+
+  ._container ._text-1 {
+    top: 145px;
+    left: 0;
+    right: 0;
+    width: 430px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 35px;
+  }
+
+  ._container .download-1 {
+    top: 408px;
+    left: 470px;
+    width: 120px;
+    height: 47px;
+    font-size: 11px;
+  }
+
+  ._container .header-nav-1 {
+    left: 3px;
+    width: 99.620733249%;
+    height: 62px;
+  }
+
+  ._container .take-tour-1 {
+    top: 408px;
+    left: 204px;
+    width: 117px;
+    height: 48px;
+    font-size: 11px;
+  }
+}
+
+@media(max-width: 768px) {
+  body {
+    font-size: 13px;
+  }
+
+  .about .image {
+    width: 301px;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .about .intro {
+    top: 77px;
+    left: 314px;
+    width: 300px;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .header-nav .logo {
+    left: 2.4760789902%;
+    width: 97px;
+    height: auto;
+  }
+
+  .main {
+    width: 1003px;
+    height: 1600px;
+    margin-top: 520px;
+    margin-left: 10.02604%;
+  }
+
+  .main .about {
+    width: 614px;
+    height: 200px;
+    margin-top: 73px;
+    margin-left: -0.00156%;
+  }
+
+  .main .service {
+    margin-top: 575px;
+    margin-left: 4.28287%;
+  }
+
+  .service .intro {
+    left: -203px;
+    width: 300px;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .service .iphone {
+    left: 8.1949869791%;
+    height: auto;
+  }
+
+  ._container {
+    left: 76px;
+    width: 614px;
+    height: 455px;
+  }
+
+  .about ._text {
+    left: 314px;
+    width: 300px;
+    font-size: 16px;
+  }
+
+  .intro ._text {
+    left: 0;
+    font-size: 16px;
+  }
+
+  .service ._text {
+    left: -203px;
+    width: 300px;
+    font-size: 16px;
+  }
+
+  .intro .intro-2 {
+    top: 50px;
+    width: 301px;
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .intro .intro-3 {
+    top: 0;
+    left: 51.1426099348%;
+    width: 300px;
+    height: auto;
+  }
+
+  .main .intro-1 {
+    width: 614px;
+    height: 170px;
+    margin-left: -0.00156%;
+  }
+
+  ._container ._text-1 {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  ._container .download-1 {
+    top: 298px;
+    left: 387px;
+    width: 83px;
+    height: 34px;
+  }
+
+  ._container .header-nav-1 {
+    left: 0;
+    width: 100%;
+    height: 45px;
+  }
+
+  ._container .take-tour-1 {
+    top: 296px;
+    left: 105px;
+    width: 80px;
+    height: 37px;
+  }
+}
+
+@media(max-width: 480px) {
+  body {
+    font-size: 13px;
+  }
+
+  .about .image {
+    width: 384px;
+    height: auto;
+    margin-top: 184px;
+  }
+
+  .about .intro {
+    top: 50px;
+    left: 0;
+    right: 0;
+    width: 385px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .header-nav .logo {
+    left: 3.125%;
+    width: 65px;
+    height: auto;
+  }
+
+  .intro .intro {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .main {
+    width: 1032px;
+    height: 1823px;
+    margin-top: 297px;
+    margin-left: 10%;
+  }
+
+  .main .about {
+    width: 384px;
+    height: 440px;
+    margin-top: 80px;
+    margin-left: 0;
+  }
+
+  .main .service {
+    margin-top: 352px;
+    margin-left: 6.97674%;
+  }
+
+  .service .intro {
+    left: 0;
+    right: 0;
+    width: 385px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .service .iphone {
+    left: 12.7099609375%;
+    height: auto;
+  }
+
+  ._container {
+    left: 48px;
+    width: 384px;
+    height: 256px;
+  }
+
+  .about ._text,
+  .intro ._text,
+  .service ._text {
+    left: 0;
+    right: 0;
+    width: 385px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 18px;
+  }
+
+  .intro .intro-2 {
+    top: 45px;
+    width: 385px;
+  }
+
+  .intro .intro-3 {
+    top: 172px;
+    width: 381px;
+    height: auto;
+  }
+
+  .main .intro-1 {
+    width: 384px;
+    height: 369px;
+    margin-left: 0;
+  }
+
+  ._container ._text-1 {
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 222px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  ._container .download-1 {
+    top: 181px;
+    left: 197px;
+    height: 31px;
+  }
+
+  ._container .take-tour-1 {
+    top: 180px;
+    left: 106px;
+    height: 32px;
+  }
+}
+
+@media(max-width: 320px) {
+  body {
+    font-size: 13px;
+  }
+
+  .about .image {
+    width: 256px;
+    height: auto;
+    margin-top: 240px;
+  }
+
+  .about .intro {
+    top: 70px;
+    left: 0;
+    right: auto;
+    width: 256px;
+  }
+
+  .header-nav .logo {
+    left: 18px;
+    width: 55px;
+    height: auto;
+  }
+
+  .intro .intro {
+    left: 0;
+    right: auto;
+    width: 256px;
+  }
+
+  .main {
+    width: 1048px;
+    height: 1895px;
+    margin-top: 225px;
+  }
+
+  .main .about {
+    width: 256px;
+    height: 420px;
+    margin-top: 45px;
+  }
+
+  .main .service {
+    margin-top: 463px;
+    margin-left: 8.39695%;
+  }
+
+  .service .intro {
+    left: -15px;
+    right: auto;
+    width: 256px;
+  }
+
+  .service .iphone {
+    left: 25.7698567708%;
+    height: auto;
+  }
+
+  ._container {
+    left: 32px;
+    width: 256px;
+    height: 184px;
+  }
+
+  .about ._text {
+    left: 0;
+    right: auto;
+    width: 256px;
+    font-size: 16px;
+  }
+
+  .intro ._text {
+    top: 2px;
+    left: 0;
+    right: auto;
+    width: 256px;
+    font-size: 16px;
+  }
+
+  .service ._text {
+    left: -15px;
+    right: auto;
+    width: 256px;
+    font-size: 16px;
+  }
+
+  .intro .intro-2 {
+    top: 70px;
+  }
+
+  .intro .intro-3 {
+    top: 240px;
+    height: auto;
+  }
+
+  .main .intro-1 {
+    width: 256px;
+    height: 385px;
+  }
+
+  ._container ._text-1 {
+    top: 60px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 18px;
+  }
+
+  ._container .download-1 {
+    top: 120px;
+    left: 151px;
+    width: 80px;
+    height: 23px;
+    font-size: 9px;
+  }
+
+  ._container .header-nav-1 {
+    width: 99.609375%;
+    height: 35px;
+  }
+
+  ._container .take-tour-1 {
+    top: 120px;
+    left: 23px;
+    height: 23px;
+    font-size: 9px;
+  }
+}

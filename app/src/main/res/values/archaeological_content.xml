@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="archaeological">
+        <item>
+            National Archaeological Museum was established in 1892, originally called the National Museum and includes three collections - Starovekovna, Numismatic"and ethnographic. The idea to establish an all- Bulgarian museum aroused in the 1840s. Its realization entered the Statute of the Bulgarian Literary Society of 1869. The necessity of constitution of an Ancient Cabinet emerged in this statute book for a first time.After the Liberation from the Ottoman Domination, under the Temporary Russian Government, the establishment of the Library and Museum started along with the formation of the structures of the contemporary Bulgarian state. After the establishment of the Public Library, a collection of objects mainly of archaeological value was initiated. Very soon the collection grew and was transformed into a museum department. Donation was the prevailing from to enrich the collection. Teachers in the country sent to the Museum in Sofia every object, which they believed had any historical value and was a part of the history of the Bulgarian territories.\nThe museum department was separated from the Library and established into an independent institution with ‘special personnel’ in 1892. The Edict of Ferdinand, the Royal Prince of January 1, 1893 legitimatized the establishment of the National Museum, with its own budget and stamp.
+        </item>
+        <item>
+            Working Hours: \n10 am to 6 pm. (May-October)
+            \n10 am to 5 pm. (November to April)
+        </item>
+        <item>
+            Prices: \nFor individual visitors – 10 BGN.
+            \nFor students – 2 BGN.
+            \nFor visitors with children – 10 BGN.
+        </item>
+         <item>
+            Phones: \n+3592 988 24 06
+        </item>
+        <item>Address: Sofia,2 Saborna Str. \nLocation: 42.696471,23.324452 (Click to see on the map)</item>
+        <item>@string/archaeological_link</item>
+    </string-array>
+</resources>

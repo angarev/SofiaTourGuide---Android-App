@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nedelya">
+        <item>
+           "St. Nedelya" is located in the center of town, which makes it attractive for the residents of Sofia and tourists. St. Nedelya Church is an Eastern Orthodox church in Sofia, the capital of Bulgaria, a cathedral of the Sofia bishopric of the Bulgarian Patriarchate. St Nedelya is a medieval church that has suffered destruction through the ages and has been reconstructed many times. The present building of the temple is among the landmarks of Sofia. It was designed by the famous Bulgarian architectural team Vasilyov-Tsolov.
+        </item>
+        <item>
+            Working Hours: \n From 7 am to 5:30 pm;
+        </item>
+        <item>
+            Prices: Free;
+        </item>
+        <item>Phone: +359 987 57 48; </item>
+        <item>Address: Sofia, 20 Sveta Nedelia Sq. (Click to see on the map)</item>
+        <item>@string/nedelya_link</item>
+    </string-array>
+</resources>

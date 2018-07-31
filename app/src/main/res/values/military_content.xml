@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="military">
+        <item>
+            The National Museum of Military History is a state museum, which from its establishment until today is a structure of the Ministry of Defense. It investigates, preserves, processes scientifically and popularizes cultural valuables connected with the national and European military history. NMMH develops its activities throughout the country.
+            For its almost centennial presence in the cultural life, in the museum store are preserved and investigated more than 1 000 000 artifacts – witnesses of Bulgarian and European military history.
+        </item>
+        <item>
+            Working Hours: \n10 am to 6 pm ( Wednesday - Sunday)
+        </item>
+        <item>
+            Prices:\nFor individual visitors – 8 BGN;
+            \nFor Family ticket - 10 BGN;
+            \nTo visit Collectible halls - 2 BGN;
+            \nFor students and people with disabilities - 2 BGN;
+            \nChildren under 7 years of age are exempt from paying the entrance ticket;
+        </item>
+         <item>
+            Phones: \n +35929461805
+        </item>
+        <item>Address: 1618 Sofia, Vitoshko lale 16 Str. <b>(Click to see on the map)</b></item>
+        <item>Transport: Bus - №  9, 72, 120, 305, 413; \nTrams: № 20, 23 </item>
+        <item>@string/military_link</item>
+    </string-array>
+</resources>
